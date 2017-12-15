@@ -68,18 +68,6 @@ default:
 
 } 
 
-/* 
-int main() 
-{ 
-char s[50], type; 
- char *p; 
-  float temp; 
-   p = gets(s); 
-    sscanf(s, "%f %c", &temp, &type); 
-     convert(temp, type); 
-} 
-*/ 
-
 int main(int argc, char *argv[]){ 
 float temp; 
 char type; 
