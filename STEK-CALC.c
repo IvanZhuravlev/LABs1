@@ -26,7 +26,6 @@ int atoi (const char *str);
                 break;
              case '/':
           if stack[sp-1]==0
-              then
               printf("error")
               else 
                stack[sp-2] = stack[sp-2] / stack[sp-1];   sp--;
