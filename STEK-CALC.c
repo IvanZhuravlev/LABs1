@@ -9,11 +9,7 @@
         if(scanf ("%s", buf) != 1 )
             break;
         switch(buf[0])
-        {
-             if [sp-1]==0
-              then
-              printf("error");
-                break;
+    {
             case '=':
                  printf("Result = %d\n", stack[sp - 1]);  sp--;
                  break;
