@@ -10,7 +10,7 @@
             break;
         switch(buf[0])
         {
-            case '\0':
+            case '0\':
                 break;
             case '=':
                  printf("Result = %d\n", stack[sp - 1]);  sp--;
