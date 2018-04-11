@@ -28,6 +28,5 @@ break;
 case 6: printf("Saturday");
 break;
 }
-scanf("%s");
 
 }
