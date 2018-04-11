@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+int atoi (const char *str);
  int main()
  {
      int stack[1000];
