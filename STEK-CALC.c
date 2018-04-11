@@ -10,7 +10,9 @@
             break;
         switch(buf[0])
         {
-            case '0\':
+             if [sp-1]==0
+              then
+              printf("error");
                 break;
             case '=':
                  printf("Result = %d\n", stack[sp - 1]);  sp--;
@@ -25,6 +27,10 @@
                 stack[sp-2] = stack[sp-1] * stack[sp-2];  sp--;
                 break;
              case '/':
+          if stack[sp-1]==0
+              then
+              printf("error")
+              else 
                stack[sp-2] = stack[sp-2] / stack[sp-1];   sp--;
                 break;
              default:
