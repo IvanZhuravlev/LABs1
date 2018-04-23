@@ -2,6 +2,8 @@
 #define VECTOR_H
 #include <cmath>
 #include <string.h>
+#include <iostream>
+#include "vector.cpp"
 
 typedef struct vector
 {
