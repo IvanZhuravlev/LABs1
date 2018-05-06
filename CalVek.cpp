@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "vector.cpp"
 
 using namespace std;
 int main()
